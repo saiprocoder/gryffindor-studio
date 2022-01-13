@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Gryffindor</title>
+
+    <link rel="shortcut icon" href="grfy.png" type="image/x-icon">
+</head>
+<style>
+    @import "https://fonts.googleapis.com/css?family=Lobster";
+
+    :root {
+        --cyan: #00FFFF;
+        --lime: #00FF00;
+        --black: #000000;
+        --blue: #00008b;
+    }
+
+    body {
+        background-color: var(--black);
+    }
+
+    #intro {
+        font-size: 3vw;
+        color: var(--cyan);
+        font-family: lobster;
+        text-align: center;
+    }
+
+    button {
+        background-image: linear-gradient(to right, var(--lime), var(--cyan));
+        font-weight: 700;
+        font-size: 25px;
+        font-family: lobster;
+    }
+
+    button a {
+        text-decoration: none;
+    }
+
+    button {
+        float: right;
+    }
+
+    button a:hover {
+        color: var(--blue);
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 33.33%;
+        padding: 5px;
+    }
+</style>
+<body>
+    <div class="main">
+        <header>
+            <div class="logo">
+                <center><img src="grfy.png" alt="Gryffindor"></center>
+                <br>
+            </div>
+            <br>
+            <ul>
+                <button><a href="https://bit.ly/gryffindorstudio/">&nbsp;&nbsp;Gryffindor&nbsp;&nbsp;</a></button>
+                <button><a href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></button>
+            </ul>
+            <br><br><br><br>
+            <div class="row">
+                <div class="column">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Dilip.png" alt="Dilip">
+                </div>
+                <div class="column">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Sudhindra.png" alt="Sudhindra">
+                </div>
+                <div class="column">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Subhash.png" alt="Subhash">
+                </div>
+                <div class="column">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="photo.png" alt="Ashutosh">
+                </div>
+              </div>
+              <br><br><br>
+              <h1 id="intro">Welcome to Team Gryffindor's official website!!</h1>   
+        </header>
+    </div>
+</body>
+</html>
